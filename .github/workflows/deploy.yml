@@ -11,7 +11,9 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
 
-      - name: Install, lint, build 🔧
+       - name: Install, lint, build 🔧
+        env:
+          CI: false
         run: |
           npm install
           npm run lint:js

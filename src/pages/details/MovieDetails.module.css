@@ -1,0 +1,26 @@
+.container {
+  margin: 10px auto;
+  width: 95vw;
+}
+
+.poster {
+  display: block;
+  margin-top: 10px;
+}
+
+.links {
+  display: flex;
+  width: 299px;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+.linksp {
+  padding-right: 20px;
+}
+
+.movieDetails {
+  display: flex;
+  gap: 10px;
+}

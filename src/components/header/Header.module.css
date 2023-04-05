@@ -1,0 +1,12 @@
+.nav {
+  text-align: left;
+  background-color: #333;
+  font-size: 40px;
+}
+
+.navLink {
+  text-align: center;
+  padding: 0 30px;
+  text-decoration: none;
+  color: white;
+}
