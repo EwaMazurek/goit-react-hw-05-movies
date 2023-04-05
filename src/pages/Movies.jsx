@@ -13,7 +13,7 @@ const Movies = () => {
   const fetchMovies = async searchedMovie => {
     try {
       const response = await axios.get(
-        `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${searchedMovie}&language=en-US&page=1&include_adult=true`
+        `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${searchedMovie}&language=en-US&page=1&include_adult=false`
       );
       const moviesArray = await response.data.results;
       setMovies(moviesArray);
