@@ -34,7 +34,7 @@ const Reviews = () => {
           {reviews.map(review => (
             <li key={review.id}>
               <h5>AUTHOR: {review.author}</h5>
-              <p>{review.content}</p>
+              <p dangerouslySetInnerHTML={{ __html: review.content }}></p>
             </li>
           ))}
         </ul>
